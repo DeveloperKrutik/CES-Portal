@@ -1,0 +1,131 @@
+body{
+    background-color: #fef0eb;
+}
+
+.img-profile {
+    /* border: 0.1rem solid rgba(255, 147, 109, 1); */
+    border: 0.1rem solid rgba(40, 40, 40, 0.687);
+}
+
+.registration-form{
+	padding: 50px 0;
+}
+
+.registration-form form{
+    background-color: #fff;
+    max-width: 600px;
+    margin: auto;
+    padding: 50px 70px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.075);
+}
+
+.registration-form .form-control{
+    border: 1px solid #fb561d;
+}
+
+.registration-form .form-control:focus{
+    box-shadow: 0 0 0 0.2rem rgb(251 86 29 / 20%);
+}
+
+.registration-form .form-group{
+    margin-bottom: 35px;
+}
+
+.registration-form .form-icon{
+	text-align: center;
+    background-color: #fb561d;
+    border-radius: 50%;
+    font-size: 40px;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 10px;
+    line-height: 100px;
+}
+
+.cusfont{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.registration-form .item{
+	border-radius: 10px;
+    /* margin-bottom: 25px; */
+    padding: 10px 20px;
+}
+
+.registration-form .create-account{
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #fb561d;
+    border: 2px solid #fb561d;;
+    color: white;
+    margin-top: 20px;
+}
+
+.registration-form .create-account:hover{
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid #fb561d;
+    color: #fb561d;
+}
+
+.registration-form .create-account:focus{
+    box-shadow: 0 0 0 0.2rem rgb(251 86 29 / 20%);
+}
+
+.registration-form .social-media{
+    max-width: 600px;
+    background-color: #fff;
+    margin: auto;
+    padding: 35px 0;
+    text-align: center;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: #9fadca;
+    border-top: 1px solid #dee9ff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+}
+
+.registration-form .social-icons{
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+.registration-form .social-icons a{
+    font-size: 23px;
+    margin: 0 3px;
+    color: #fb561d;
+    border: 1px solid;
+    border-radius: 50%;
+    width: 45px;
+    display: inline-block;
+    height: 45px;
+    text-align: center;
+    background-color: #fff;
+    line-height: 45px;
+}
+
+.registration-form .social-icons a:hover{
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+@media (max-width: 576px) {
+    .registration-form form{
+        padding: 50px 20px;
+    }
+
+    .registration-form .form-icon{
+        width: 70px;
+        height: 70px;
+        font-size: 30px;
+        line-height: 70px;
+    }
+}
